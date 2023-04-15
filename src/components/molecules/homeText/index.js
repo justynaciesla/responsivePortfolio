@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from "react";
-import { gsap } from "gsap";
+import React from "react";
+
 import Header from "../../atoms/headers";
 import ContactButton from "../../atoms/contactButton/index";
 import {
@@ -7,26 +7,10 @@ import {
   StyledFirstTextWrapper,
   StyledSpan,
   StyledPinkSpan,
-  StyledWrapper,
-  StyledP,
   StyledMainWrapper,
 } from "./StyledHomeText";
 
 const HomeText = () => {
-  const tl = gsap.timeline({
-    defaults: { duration: 1, ease: "power1.out" },
-  });
-  const CreativeText = useRef();
-
-  useEffect(() => {
-    tl.fromTo(
-      CreativeText.current,
-      { x: 300, opacity: 0.5 },
-      { x: 0, opacity: 1 },
-      "<90%"
-    );
-  }, []);
-
   return (
     <StyledMainWrapper>
       <StyledTextWrapper>

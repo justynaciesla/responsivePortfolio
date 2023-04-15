@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../../atoms/headers";
 import {
-  StyledCircle,
   StyledTextWrapper,
   StyledWrapper,
   StyledSpan,
