@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledWrapper, StyledLine } from "./StyledContactContent";
+import { StyledWrapper } from "./StyledContactContent";
 import ContactCircle from "../../molecules/contactCircle";
 import ContactForm from "../../molecules/contactForm";
 import Line from "../../atoms/line";
